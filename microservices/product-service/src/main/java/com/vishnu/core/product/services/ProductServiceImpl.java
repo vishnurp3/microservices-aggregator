@@ -1,7 +1,7 @@
 package com.vishnu.core.product.services;
 
-import com.vishnu.api.core.exceptions.InvalidInputException;
-import com.vishnu.api.core.exceptions.NotFoundException;
+import com.vishnu.api.exceptions.InvalidInputException;
+import com.vishnu.api.exceptions.NotFoundException;
 import com.vishnu.api.core.product.Product;
 import com.vishnu.api.core.product.ProductService;
 import com.vishnu.util.http.ServiceUtil;

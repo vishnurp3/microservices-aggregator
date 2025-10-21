@@ -1,6 +1,6 @@
 package com.vishnu.core.recommendation.services;
 
-import com.vishnu.api.core.exceptions.InvalidInputException;
+import com.vishnu.api.exceptions.InvalidInputException;
 import com.vishnu.api.core.recommendation.Recommendation;
 import com.vishnu.api.core.recommendation.RecommendationService;
 import com.vishnu.util.http.ServiceUtil;

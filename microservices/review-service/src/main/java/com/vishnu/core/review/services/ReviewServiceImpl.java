@@ -1,6 +1,6 @@
 package com.vishnu.core.review.services;
 
-import com.vishnu.api.core.exceptions.InvalidInputException;
+import com.vishnu.api.exceptions.InvalidInputException;
 import com.vishnu.api.core.review.Review;
 import com.vishnu.api.core.review.ReviewService;
 import com.vishnu.util.http.ServiceUtil;

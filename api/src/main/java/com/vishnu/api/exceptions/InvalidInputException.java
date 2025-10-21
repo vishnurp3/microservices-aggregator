@@ -1,4 +1,4 @@
-package com.vishnu.api.core.exceptions;
+package com.vishnu.api.exceptions;
 
 public class InvalidInputException extends RuntimeException {
 

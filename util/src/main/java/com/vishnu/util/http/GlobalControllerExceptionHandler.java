@@ -1,7 +1,7 @@
 package com.vishnu.util.http;
 
-import com.vishnu.api.core.exceptions.InvalidInputException;
-import com.vishnu.api.core.exceptions.NotFoundException;
+import com.vishnu.api.exceptions.InvalidInputException;
+import com.vishnu.api.exceptions.NotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.server.reactive.ServerHttpRequest;
@@ -34,7 +34,6 @@ public class GlobalControllerExceptionHandler {
 
         final String path = request.getPath().pathWithinApplication().value();
         final String message = exception.getMessage();
-
         log.debug("Returning HTTP status: {} for path: {}, message: {}", httpStatus, path, message);
         return new HttpErrorInfo(httpStatus, path, message);
     }
